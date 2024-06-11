@@ -1,0 +1,63 @@
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden; /* Impede que barras de rolagem apareçam */
+}
+
+.container {
+    text-align: center;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+#present {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#present img {
+    width: 200px;
+    height: auto;
+}
+
+.hidden {
+    display: none;
+}
+
+#message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: red;
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes flowersHearts {
+    0% {
+        transform: scale(0.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.rose, .heart {
+    position: absolute;
+    animation: flowersHearts 1s forwards;
+}
