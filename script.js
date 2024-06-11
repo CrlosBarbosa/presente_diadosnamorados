@@ -11,7 +11,7 @@ function openPresent() {
 function showFlowersAndHearts() {
     const container = document.querySelector('.container');
     
-    for (let i = 0; i < 25; i++) {  // Aumentar o número de elementos de 10 para 30
+    for (let i = 0; i < 15; i++) {  // Aumentar o número de elementos de 10 para 30
         const rose = document.createElement('div');
         rose.classList.add('rose');
         rose.style.left = Math.random() * 100 + 'vw';
