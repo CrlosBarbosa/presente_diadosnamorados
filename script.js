@@ -16,7 +16,7 @@ function showFlowersAndHearts() {
         rose.classList.add('rose');
         rose.style.left = Math.random() * 100 + 'vw';
         rose.style.top = Math.random() * 100 + 'vh';
-        rose.style.backgroundImage = 'url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPW8HMoASKnl9M8dHPTlC2PR-AofUodQQoJw&s")';
+        rose.style.backgroundImage = 'url(https://i.ibb.co/wCZqZgX/rosa-removebg-preview.png)';
         rose.style.width = '50px';
         rose.style.height = '50px';
         rose.style.backgroundSize = 'contain';
@@ -27,7 +27,7 @@ function showFlowersAndHearts() {
         heart.classList.add('heart');
         heart.style.left = Math.random() * 100 + 'vw';
         heart.style.top = Math.random() * 100 + 'vh';
-        heart.style.backgroundImage = 'url("https://images.emojiterra.com/google/noto-emoji/unicode-15.1/color/share/1f339.jpg")';
+        heart.style.backgroundImage = 'url("https://i.ibb.co/DgpB4JC/coracao-removebg-preview.png")';
         heart.style.width = '50px';
         heart.style.height = '50px';
         heart.style.backgroundSize = 'contain';
